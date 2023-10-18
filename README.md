@@ -20,4 +20,4 @@ You will also see any lint errors in the console.
 
 # Screenshot
 
-![Alt text](image.png)
+![image](https://github.com/payal424/data-visualization/assets/144161609/9ae2196c-7545-4a34-b387-dd2361b56d8d)
