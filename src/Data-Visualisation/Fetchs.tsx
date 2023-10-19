@@ -12,7 +12,7 @@ function Fetchs(){
     const [alcoholArray,setAlcoholArray] = useState<Alcohol[]>()
     useEffect(()=>{
         data.map((i)=> {
-            var gamma = (i.Alcohol * i.Hue)/i.Magnesium
+            var gamma = (Number(i.Ash) * i.Hue)/i.Magnesium
         arr.push({class : i.Alcohol, flavanoids: Number(i.Flavanoids) , gamma :  gamma });
         })
         setAlcoholArray(arr);

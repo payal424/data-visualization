@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Alcohol } from "./Modal";
+import { gammaMode } from "./Utility";
 
 interface TableProps {
     groupedArray: Map<string | number, Alcohol[]> | never [];
@@ -52,7 +53,7 @@ function GammaCalculation(props:TableProps){
                     <th style={{border : "1px solid"}}>{`${propertyName} Mode`}</th>
                     {
                         [...groupedArray.entries()].map(([key, values]) => {
-                            return <td  style={{border : "1px solid"}} key={key}>{(3*median-2*mean).toFixed(3)}</td>
+                            return <td  style={{border : "1px solid"}} key={key}>{gammaMode(values).toFixed(3)}</td>
                         })
                     }
                 </tbody>
