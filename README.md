@@ -20,4 +20,5 @@ You will also see any lint errors in the console.
 
 # Screenshot
 
-![image](https://github.com/payal424/data-visualization/assets/144161609/9ae2196c-7545-4a34-b387-dd2361b56d8d)
+![image](https://github.com/payal424/data-visualization/assets/144161609/905dbf24-3c80-49f6-904d-76cde3a09826)
+
